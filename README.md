@@ -1,4 +1,4 @@
-![Скриншот](readme-img/screenshot.png)
+<p align="center"><img src="readme-img/screenshot.png" /></p>
 
 # Browser Sync GUI
 
