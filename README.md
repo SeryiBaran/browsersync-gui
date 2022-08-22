@@ -1,3 +1,5 @@
+![Скриншот](readme-img/screenshot.png)
+
 # Browser Sync GUI
 
 GUI для Browser Sync.
