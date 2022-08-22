@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser Sync GUI</title>
+  </head>
+  <body>
+    <div class="wrapper p-3">
+      <h1 class="text-center mb-3">BrowserSync GUI</h1>
+      <form id="paramsForm">
+        <div class="mb-3">
+          <div class="d-grid gap-3">
+            <button class="btn btn-primary" type="button" id="dirBtn">
+              Выбрать директорию
+            </button>
+            <pre><code id="dirTxt">Здесь появится путь</code></pre>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="portInput" class="form-label">Порт:</label>
+          <input
+            type="number"
+            max="65535"
+            min="1"
+            class="form-control"
+            id="portInput"
+            value="3000"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="filesInput" class="form-label"
+            >Отслеживаемые файлы:</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="filesInput"
+            value="**/*"
+          />
+        </div>
+        <div class="mb-3">
+          <div class="d-grid gap-3">
+            <button type="submit" class="btn btn-primary" id="submitBtn" disabled>
+              Запустить (откроется браузер)
+            </button>
+          </div>
+        </div>
+      </form>
+      <div class="d-grid gap-3">
+        <button class="btn btn-danger" id="exitBtn">
+          Остановить и выйти
+        </button>
+      </div>
+    </div>
+    <script type="module" src="./content.js"></script>
+  </body>
+</html>
