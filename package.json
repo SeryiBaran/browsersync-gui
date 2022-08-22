@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "main": "main.js",
-  "description": "Browser Sync GUI",
+  "description": "Simple GUI for Browser Sync",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

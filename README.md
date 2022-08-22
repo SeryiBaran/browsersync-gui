@@ -1,8 +1,8 @@
 <p align="center"><img src="readme-img/screenshot.png" /></p>
 
-# Browser Sync GUI
+# Browser Sync GUI (RUS)
 
-GUI для Browser Sync.
+Простой GUI для Browser Sync.
 
 ## Сборка
 ```bash
