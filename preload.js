@@ -14,6 +14,7 @@ window.addEventListener("DOMContentLoaded", () => {
   function checkValid() {
     return (
       dirPath !== "" &&
+      dirPath !== undefined &&
       portInput.value !== "" &&
       filesInput.value !== ""
     );
