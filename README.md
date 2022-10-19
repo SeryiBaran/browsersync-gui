@@ -1,6 +1,6 @@
 <p align="center"><img src="readme-img/screenshot.png" /></p>
 
-# Browser Sync GUI (RUS)
+# Browser Sync GUI
 
 Простой GUI для Browser Sync.
 
